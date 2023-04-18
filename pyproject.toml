@@ -39,3 +39,7 @@ addopts = '-v --cov=preprocess_cancellation'
 
 [tool.coverage.run]
 branch = true
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
